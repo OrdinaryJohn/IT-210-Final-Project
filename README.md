@@ -11,4 +11,5 @@ Hardware
 - HP Keyboard
 - Mouse
 - Honeywell Voyager 1202G Scanner
+  - You do not need any module to make the scanner work. Just scann the barcode of the MAV Card and it will read it.
 - Monitor with HDMI port
