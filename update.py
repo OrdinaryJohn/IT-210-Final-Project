@@ -34,11 +34,11 @@ class Application:
         sql = "SELECT * FROM appointments WHERE studentid LIKE ?"
         self.res = c.execute(sql, (self.input,))
         for self.row in self.res:
-            self.studentid = self.row[0]
-            self.name = self.row[1]
-            self.major = self.row[2]
-            self.time = self.row[3]
-            self.phone = self.row[4]
+            self.studentid = self.row[1]
+            self.name = self.row[2]
+            self.major = self.row[3]
+            self.time = self.row[4]
+            self.phone = self.row[5]
 
         # creating the update form
         self.uname = Label(self.master, text="Student's Name", bg='gold', font=('arial 18 bold'))
